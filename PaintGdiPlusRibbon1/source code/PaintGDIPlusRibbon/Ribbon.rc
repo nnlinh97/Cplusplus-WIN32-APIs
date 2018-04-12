@@ -1,0 +1,52 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_BTN_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_EXIT_SmallImages_RESID    IMAGE    "exit.png" /* SmallImages ID_BTN_EXIT_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_BTN_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_LINE_SmallImages_RESID    IMAGE    "line.png" /* SmallImages ID_BTN_LINE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECT_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_BTN_RECT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_RECT_SmallImages_RESID    IMAGE    "rectangle.png" /* SmallImages ID_BTN_RECT_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_BTN_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ELLIPSE_LargeImages_RESID    IMAGE    "ellipse.png" /* LargeImages ID_BTN_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    GroupExit_LabelTitle_RESID L"Label:GroupExit" /* LabelTitle GroupExit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    GroupDraw_LabelTitle_RESID L"Label:GroupDraw" /* LabelTitle GroupDraw_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd4_LabelTitle_RESID L"Label:InternalCmd4" /* LabelTitle InternalCmd4_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

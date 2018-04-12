@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdExit" Symbol ="ID_BTN_EXIT" LabelTitle="Exit" >
+      <Command.SmallImages>
+        <Image Id ="201">exit.png</Image>
+      </Command.SmallImages>
+    </Command>
+  
+    <Command Name="cmdLine" Symbol ="ID_BTN_LINE" LabelTitle="Line" >
+      <Command.SmallImages>
+        <Image Id ="202">line.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="cmdRectangle" Symbol ="ID_BTN_RECT" LabelTitle="Rectangle" >
+      <Command.SmallImages>
+        <Image Id ="203">rectangle.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="cmdEllipse" Symbol ="ID_BTN_ELLIPSE" LabelTitle="Ellipse" >
+      <Command.LargeImages>
+        <Image Id ="204">ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+  
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.Tabs>
+        <Tab>
+          <Group CommandName="GroupExit" SizeDefinition="OneButton">
+            <Button CommandName="cmdExit" />
+          </Group>
+        <Group CommandName="GroupDraw" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdLine" />
+            <Button CommandName="cmdRectangle" />
+            <Button CommandName="cmdEllipse" />
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
